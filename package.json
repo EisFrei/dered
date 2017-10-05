@@ -1,0 +1,24 @@
+{
+  "name": "dered",
+  "version": "0.0.1",
+  "description": "Remove redundant keys in JSON-data during transmission to reduce size.",
+  "main": "dist/dered.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cp ./src/dered.js ./dist/dered.js && uglify -s ./dist/dered.js -o ./dist/dered.min.js"
+  },
+  "keywords": [
+    "bandwidth",
+    "JSON",
+    "redundant",
+    "redundancy",
+    "footprint",
+    "size"
+  ],
+  "author": "Martin Freisen <martin.freisen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chalk": "^2.1.0"
+  }
+}
